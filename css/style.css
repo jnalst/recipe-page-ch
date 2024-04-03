@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+@import "./global/global.css"; /* OK */
+@import "./conteudomain/main.css";
+@import "./ingredientes/ingrediente.css";
+@import "./instrucao/instrucao.css";
+@import "./nutricao/nutricao.css";
+@import "./footer/footer.css";

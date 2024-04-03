@@ -1,0 +1,103 @@
+body {
+  background-color: var(--eggshell);
+}
+
+.container {
+  place-content: center;
+  background-color: var(--white);
+  border-radius: 3rem;
+  margin: 0rem;
+  max-width: 65rem;
+  display: grid;
+  margin: 0 auto;
+  margin-top: 12rem;
+  padding: 5.5rem;
+  padding-bottom: 0rem;
+  margin-bottom: 6rem;
+}
+
+.container picture {
+  max-width: 650px;
+  margin-bottom: 3rem;
+}
+
+.container picture img {
+  border-radius: 1.5rem;
+}
+
+.titulo-principal {
+ font-family: "Young Serif";
+ font-size: 4rem;
+ font-weight: 400;
+ margin-bottom: 2rem;
+}
+
+.texto {
+  font-family: "Outfit";
+  font-size: 1.6rem;
+  max-width: 60ch;
+  margin-bottom: 3rem;
+  color: var(--wengeBrown);
+}
+
+.caixa-preparo {
+  background-color: var(--roseWhite);
+  border-radius: 1.5rem;
+  padding-left: 3rem;
+  margin-bottom: 3rem;
+}
+
+.caixa-preparo h3 {
+  font-size: 2rem;
+  font-family: "Outfit";
+  margin-block: 2rem;
+  color: var(--darkRaspberry);
+}
+
+.caixa-preparo ul {
+  padding-left: 1.6rem;
+  font-size: 1.6rem;
+  font-family: "Outfit";
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  color: var(--wengeBrown);
+}
+
+@media screen and (max-width:770px) {
+  .container {
+    margin-top: 0rem;
+    border-radius: 0rem;
+    padding: 0rem;
+    padding-bottom: 0rem;
+    margin-bottom: 6rem;
+  }
+
+  .titulo-principal {
+    font-size: 3.6rem;
+    padding-left: 5rem;
+  }
+
+  .container picture img {
+    border-radius: 0rem;
+  }
+
+  .texto {
+    padding-inline: 5rem;
+  }
+
+  .caixa-preparo {
+    margin-inline: 5rem;
+  }
+}
+
+@media screen and (max-width:400px) {
+
+  .container {
+    margin-bottom: 2rem;
+  }
+
+  body {
+    background-color: var(--white);
+  }
+}

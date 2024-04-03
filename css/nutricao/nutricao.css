@@ -1,0 +1,39 @@
+.tabela {
+  font-size: 1.6rem;
+  color: var(--wengeBrown);
+}
+
+.tabela li {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.tabela li::after {
+  content: "";
+  position: absolute;
+  background-color: var(--lightGrey);
+  width: 100%;
+  height: 0.1rem;
+  top: 4rem;
+}
+
+.tabela li:last-child::after {
+  display: none;
+}
+
+.tabela li strong {
+  color: var(--nutmeg);
+}
+
+@media screen and (max-width: 770px) {
+  .tabela li {
+    padding-left: 5rem;
+  }
+
+  .tabela li::after {
+    width: 80%;
+    left: 4rem;
+  }
+}

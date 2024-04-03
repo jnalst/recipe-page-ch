@@ -1,0 +1,36 @@
+.lista-instrucao {
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+    font-family: "Outfit";
+    display: grid;
+    gap: 1rem;
+    color: var(--wengeBrown);
+    margin-top: 0rem;
+    margin-bottom: 5rem;
+    position: relative;
+}
+
+.lista-instrucao::after {
+    content: "";
+    position: absolute;
+    background-color: var(--lightGrey);
+    width: 100%;
+    height: .1rem;
+    top: 28rem;
+}
+
+@media screen and (max-width:770px) {
+    .lista-instrucao{
+        padding-left: 6.8rem;
+        padding-right: 5rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+.lista-instrucao::after {
+    width: 80%;
+    left: 4rem;
+    top: 55.5rem;
+}
+}
